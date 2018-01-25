@@ -9,8 +9,9 @@ import (
 func main() {
 	bc := models.InitBlockchain()
 
-	bc.AddBlock("Send 1 BTC to AnhLe")
-	bc.AddBlock("Send 2 more BTC to AnhLe")
+	bc.AddBlock("Mot Con Vit Xoe Ra Hai Cai Canh")
+	bc.AddBlock("No Keu Rang Quoac Quoac Quoac")
+	bc.AddBlock("Quoac Quoac Quoac")
 
 	for _, block := range bc.Blocks {
 		fmt.Printf("Prev. hash: %x\n", block.PrevBlockHash)
